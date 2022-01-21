@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	--header-text-color: #212121;
 	--address-text-color: #757575;
@@ -13,6 +17,29 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
 .list {
 	list-style: none;
 }
@@ -21,7 +48,21 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 2px solid red;
+	margin: 0 auto;
+	display: flex;
+}
+
 /* -----------HEADER------------ */
+
+.header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
 
 .link-logo {
 	font-family: Raleway;
@@ -30,6 +71,7 @@ a {
 	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
 	color: var(--hover-link-color);
+	display: inline-block;
 }
 
 .link-logo-dark {
@@ -48,6 +90,25 @@ a {
 	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
 	color: var(--first-title-color);
+}
+
+.navigation {
+	display: flex;
+}
+
+.header-list {
+	display: flex;
+	margin-left: 93px;
+	align-items: center;
+}
+
+.header-connect {
+	margin-left: auto;
+}
+
+.header-link {
+	display: flex;
+	margin-left: 50px;
 }
 
 .header-link {
@@ -72,6 +133,7 @@ a {
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: var(--address-text-color);
+	margin-left: 50px;
 }
 
 .header-link:hover,
@@ -93,28 +155,28 @@ a {
 
 .hero {
 	background-color: var(--hero-footer-color);
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--first-title-color);
+	padding-bottom: 30px;
+	width: 696px;
 }
 
 .hero-btn {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
-	display: flex;
-	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--hero-btn-color);
-	cursor: pointer;
 	background-color: var(--hover-link-color);
 }
 
@@ -127,6 +189,7 @@ a {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--header-text-color);
+	padding-bottom: 10px;
 }
 
 .benefits-text {
@@ -145,6 +208,12 @@ a {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--header-text-color);
+	padding-top: 94px;
+	padding-bottom: 50px;
+}
+
+.work-img {
+	padding-bottom: 94px;
 }
 
 /* -----------TEAM------------ */
@@ -236,7 +305,6 @@ a {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--header-text-color);
-	cursor: pointer;
 	background-color: #f5f4fa;
 	color: var(--header-text-color);
 }
