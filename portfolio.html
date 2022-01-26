@@ -9,8 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <header class="header">
@@ -29,22 +31,21 @@
             <a class="header-link" href="">Контакты</a>
           </li>
         </ul>
+        <ul class="header-list header-connect list">
+          <li class="header-item">
+            <a class="header-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </nav>
-      <ul class="header-list header-connect list">
-        <li class="header-item">
-          <a class="header-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="header-item">
-          <a class="header-link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </div>
   </header>
   <main>
   <section class="section">
-    <h1 class="filter-title">Фильтр</h1>
     <div class="container">
-    <div class="filter-examples-container">
+    <h1 hidden="true" class="filter-title">Фильтр</h1>
     <ul class="filter-list list">
       <li class="filter-item"><button class="filter-btn" type="button">Все</button></li>
       <li class="filter-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
@@ -55,57 +56,74 @@
     <ul class="examples-list list">
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-1.jpg" alt="">
-        <h3 class="examples-sup-title">Технокряк</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Технокряк</h2>
         <p class="examples-sub-title">Веб-сайт</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-2.jpg" alt="">
+        <div class="examples-text">
         <h2 class="examples-sup-title">Постер New Orlean vs Golden Star</h2>
         <p class="examples-sub-title">Дизайн</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-3.jpg" alt="">
-        <h3 class="examples-sup-title">Ресторан Seafood</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Ресторан Seafood</h2>
         <p class="examples-sub-title">Приложение</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-4.jpg" alt="">
-        <h3 class="examples-sup-title">Проект Prime</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Проект Prime</h2>
         <p class="examples-sub-title">Маркетинг</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-5.jpg" alt="">
-        <h3 class="examples-sup-title">Проект Boxes</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Проект Boxes</h2>
         <p class="examples-sub-title">Приложение</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-6.jpg" alt="">
-        <h3 class="examples-sup-title">Inspiration has no Borders</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Inspiration has no Borders</h2>
         <p class="examples-sub-title">Веб-сайт</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-7.jpg" alt="">
-        <h3 class="examples-sup-title">Издание Limited Edition</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Издание Limited Edition</h2>
         <p class="examples-sub-title">Дизайн</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-8.jpg" alt="">
-        <h3 class="examples-sup-title">Проект LAB</h3>
+        <div class="examples-text">
+        <h2 class="examples-sup-title">Проект LAB</h2>
         <p class="examples-sub-title">Маркетинг</p>
+        </div>
       </li>
       <li class="examples-item">
         <img class="examples-img" src="./images/portfolio-9.jpg" alt="">
+        <div class="examples-text">
         <h3 class="examples-sup-title">Growing Business</h3>
         <p class="examples-sub-title">Приложение</p>
+        </div>
       </li>
     </ul>
-    </div>
     </div>
   </section>
   </main>
     <footer class="footer">
-      <div class="container footer-container">
-        <a class="link-logo logo-footer" href="./index.html">Web<span target="_self" href="./index.html"
+      <div class="container">
+        <a class="link-logo footer-logo" href="./index.html">Web<span target="_self" href="./index.html"
             class="logo-link-white">Studio</span></a>
         <address class="footer-address">
           <ul class="footer-list list">
