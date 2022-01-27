@@ -326,7 +326,7 @@ a {
 	padding-bottom: 60px;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
@@ -339,7 +339,6 @@ a {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--first-title-color);
-	display: flex;
 }
 
 .footer-link-mail {
@@ -348,7 +347,6 @@ a {
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: var(--address-text-color);
-	display: flex;
 }
 
 .footer-link-tel {
